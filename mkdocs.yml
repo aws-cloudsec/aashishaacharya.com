@@ -5,7 +5,6 @@ theme:
   name: material
 
 nav:
-  - Home: index.md
   - AWS:
       - Services Overview: aws/services.md
       - IAM 101: aws/identity.md
