@@ -8,6 +8,3 @@ nav:
   - AWS:
       - Services Overview: aws/services.md
       - IAM 101: aws/identity.md
-  - Projects:
-      - Overview: project/index.md
-
