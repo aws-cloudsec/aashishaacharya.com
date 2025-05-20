@@ -1,5 +1,3 @@
-# AWS Services Overview
-
-This section will cover key AWS services in the context of cloud security.
-
-More content coming soon.
+# 
+Newsletter: aws-cloudsec.com/about
+Blog: cloudsecuritypro.com
