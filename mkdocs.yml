@@ -6,5 +6,5 @@ theme:
 
 nav:
   - AWS:
-      - Services Overview: aws/services.md
+      - About Me: aws/services.md
       - IAM 101: aws/identity.md
