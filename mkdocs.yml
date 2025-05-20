@@ -7,4 +7,4 @@ theme:
 nav:
   - AWS:
       - About Me: aws/services.md
-      - IAM 101: aws/identity.md
+      - AWS Resources: aws/identity.md
