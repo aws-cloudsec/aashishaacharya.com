@@ -10,4 +10,6 @@ nav:
       - IAM 101: aws/identity.md
   - Projects:
       - Overview: project/index.md
+  - Blog & Newsletter:
+      - Link: blog/link.md
 
