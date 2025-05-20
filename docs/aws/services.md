@@ -1,8 +1,5 @@
 # AWS Services Overview
-Here you'll find an overview of key AWS services relevant to this documentation site.
-- Amazon EC2
-- Amazon S3
-- IAM
-- Lambda
-- RDS
 
+This section will cover key AWS services in the context of cloud security.
+
+More content coming soon.

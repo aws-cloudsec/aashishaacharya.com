@@ -1,9 +1,5 @@
 # IAM 101
 
-A brief guide to AWS Identity and Access Management (IAM).
+An introduction to AWS Identity and Access Management (IAM), roles, and policies.
 
-- Users
-- Groups
-- Roles
-- Policies
-
+More content coming soon.
