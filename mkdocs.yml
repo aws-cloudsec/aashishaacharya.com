@@ -1,1 +1,10 @@
-site_name: My Docs
+site_name: AJ
+site_url: https://www.aashishaacharya.com
+
+theme:
+  name: material
+
+nav:
+  - AWS:
+      - Services Overview: docs/aws/services.md
+      - IAM 101: docs/aws/identity.md
