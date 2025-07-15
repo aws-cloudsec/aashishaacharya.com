@@ -1,0 +1,882 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.aashishaacharya.com/cloud-security/tools/">
+      
+      
+        <link rel="prev" href="../../gcp/resources/">
+      
+      
+        <link rel="next" href="../../aws/aboutme/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Tools Repo - AJ</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cloud-security-tools" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="AJ" class="md-header__button md-logo" aria-label="AJ" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AJ
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tools Repo
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="AJ" class="md-nav__button md-logo" aria-label="AJ" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AJ
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AWS
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            AWS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AWS Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    GCP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            GCP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gcp/resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GCP Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Cloud Security Resources
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Cloud Security Resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Tools Repo
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tools Repo
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-into-information-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Getting Into Information Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ AWS Security Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-security-repos" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Cloud Security Repos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-team-offensive-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Red Team &amp; Offensive Security Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#password-security-cracking-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Password Security &amp; Cracking Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-security-tools-from-public-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Free Security Tools from Public Sources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vulnerable-applications-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Vulnerable Applications &amp; Labs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detection-iam-infra-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Detection, IAM &amp; Infra Hardening
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrams-visual-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Diagrams &amp; Visual Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc-other-cloudsec-repos" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Misc &amp; Other CloudSec Repos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    About Me
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            About Me
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/aboutme/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Blog & Newsletter
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-into-information-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Getting Into Information Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ AWS Security Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-security-repos" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Cloud Security Repos
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#red-team-offensive-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Red Team &amp; Offensive Security Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#password-security-cracking-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Password Security &amp; Cracking Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-security-tools-from-public-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Free Security Tools from Public Sources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vulnerable-applications-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Vulnerable Applications &amp; Labs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detection-iam-infra-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Detection, IAM &amp; Infra Hardening
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrams-visual-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Diagrams &amp; Visual Tools
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc-other-cloudsec-repos" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Misc &amp; Other CloudSec Repos
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="cloud-security-tools">Cloud Security Tools</h1>
+<p>List of Cloud &amp; Cyber Security tools, resources &amp; repos maintained by <a href="https://aws-cloudsec.com">AWS Cloud Security Weekly Newsletter</a></p>
+<hr />
+<h2 id="getting-into-information-security">✅ Getting Into Information Security</h2>
+<ul>
+<li><a href="https://shellsharks.com/getting-into-information-security">Getting Into InfoSec</a>  </li>
+<li><a href="https://shellsharks.com/infosec-tools#title">InfoSec Tools</a></li>
+</ul>
+<h2 id="aws-security-tools">✅ AWS Security Tools</h2>
+<ul>
+<li><a href="https://aws.amazon.com/products/security/">AWS Security Products</a></li>
+<li><a href="https://github.com/stephenbradshaw/aws_url_signer">AWS URL Signer</a></li>
+<li><a href="https://explore.skillbuilder.aws/learn/signin">AWS Skillsbuilder</a></li>
+<li><a href="https://github.com/awslabs/aws-cloudsaga/blob/main/README.md">AWS CloudSaga (Attack Sim)</a></li>
+<li><a href="https://github.com/awslabs/amazon-guardduty-tester/blob/master/README.md">Amazon GuardDuty Tester</a></li>
+<li><a href="https://github.com/aquia-inc/aws-guardduty-runbook-generator/blob/main/README.md">AWS GuardDuty Runbook Generator</a></li>
+<li><a href="https://maturitymodel.security.aws.dev/en/4.-optimized/red-team/">AWS Maturity Model - Red Team Tools</a></li>
+<li><a href="https://github.com/welldone-cloud/aws-list-resources">aws-list-resources</a></li>
+<li><a href="https://github.com/welldone-cloud/aws-summarize-account-activity">aws-summarize-account-activity</a></li>
+<li><a href="https://github.com/kamranahmedse/aws-cost-cli">aws-cost-cli</a></li>
+</ul>
+<h2 id="cloud-security-repos">✅ Cloud Security Repos</h2>
+<ul>
+<li><a href="https://list.latio.tech/">Latio Tech Tools</a></li>
+<li><a href="https://github.com/toniblyx/my-arsenal-of-aws-security-tools">Toni de la Fuente’s Arsenal</a></li>
+<li><a href="https://github.com/CyberSecurityUP/Cloud-Security-Attacks">Cloud Security Attacks List</a></li>
+<li><a href="https://github.com/CyberSecurityUP/Awesome-Red-Team-Operations">Awesome Red Team</a></li>
+<li><a href="https://cvexploits.io/">RedTeam CVE Search</a></li>
+<li><a href="https://github.com/prowler-cloud/prowler">Prowler - AWS/GCP/Azure Security Scanner</a></li>
+</ul>
+<h2 id="red-team-offensive-security-tools">✅ Red Team &amp; Offensive Security Tools</h2>
+<ul>
+<li><a href="https://github.com/tjnull/TJ-JPT">TJ-JPT</a></li>
+<li><a href="https://github.com/pop3ret/AWSome-Pentesting/blob/main/AWSome-Pentesting-Cheatsheet.md">AWSome Pentesting Cheatsheet</a></li>
+<li><a href="https://github.com/WithSecureLabs/leonidas">Leonidas - Cloud TTP Simulation</a></li>
+<li><a href="https://github.com/RhinoSecurityLabs/pacu/blob/master/README.md">Pacu - AWS Exploitation Framework</a></li>
+<li><a href="https://github.com/RhinoSecurityLabs/cloudgoat">CloudGoat - Vulnerable AWS Environment</a></li>
+<li><a href="https://github.com/DataDog/stratus-red-team">Stratus Red Team</a></li>
+<li><a href="https://www.akamai.com/infectionmonkey">Guardicore Infection Monkey</a></li>
+<li><a href="https://github.com/redcanaryco/atomic-red-team">Atomic Red Team</a></li>
+<li><a href="https://endgame.readthedocs.io/en/latest/">EndGame</a></li>
+<li><a href="https://github.com/alphasoc/flightsim/blob/master/README.md">FlightSim</a></li>
+</ul>
+<h2 id="password-security-cracking-tools">✅ Password Security &amp; Cracking Tools</h2>
+<ul>
+<li><a href="https://www.openwall.com/john/">John the Ripper</a></li>
+<li><a href="https://hashcat.net/hashcat/">Hashcat</a></li>
+<li><a href="https://ophcrack.sourceforge.io/">Ophcrack</a></li>
+<li><a href="https://github.com/n0kovo/awesome-password-cracking#readme">Awesome Password Cracking</a></li>
+</ul>
+<h2 id="free-security-tools-from-public-sources">✅ Free Security Tools from Public Sources</h2>
+<ul>
+<li><a href="https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools">CISA Tool List</a></li>
+<li><a href="https://github.com/cisagov/cset/releases">CSET</a></li>
+<li><a href="https://github.com/cisagov/Decider/">Decider</a></li>
+<li><a href="https://github.com/JPCERTCC/MemoryForensic-on-Cloud">Memory Forensics on AWS</a></li>
+<li><a href="https://www.sans.org/tools/?focus-area=penetration-testing-red-teaming">SANS Cybersecurity Tools</a></li>
+</ul>
+<h2 id="vulnerable-applications-labs">✅ Vulnerable Applications &amp; Labs</h2>
+<ul>
+<li><a href="https://github.com/tenable/awesome-llm-cybersecurity-tools">Awesome Damn Vulnerable Apps</a></li>
+<li><a href="https://github.com/digininja/DVWA">DVWA</a></li>
+<li><a href="https://www.hackthebox.com/">Hack The Box</a></li>
+<li><a href="https://github.com/BishopFox/cloudfoxable/blob/main/README.md">CloudFoxable by BishopFox</a></li>
+<li><a href="https://github.com/BishopFox/iam-vulnerable">IAM-Vulnerable by BishopFox</a></li>
+<li><a href="https://vulnhub.com">VulnHub</a></li>
+<li><a href="https://github.com/prateek147/DVIA">DVIA - iOS</a></li>
+<li><a href="https://github.com/prateek147/DVIA-v2">DVIA-v2</a></li>
+</ul>
+<h2 id="detection-iam-infra-hardening">✅ Detection, IAM &amp; Infra Hardening</h2>
+<ul>
+<li><a href="https://github.com/jatrost/awesome-detection-rules">Awesome Detection Rules</a></li>
+<li><a href="https://github.com/iann0036/iamlive">IAMLive</a></li>
+<li><a href="https://github.com/Netflix/repokid">Netflix Repokid</a></li>
+<li><a href="https://github.com/orcasecurity/orca-toolbox/tree/main/iam-ape">IAM APE - Orca Security</a></li>
+<li><a href="https://github.com/gazoakley/terraform-aws-session-manager-settings">terraform-aws-session-manager-settings</a></li>
+<li><a href="https://github.com/houey/awesome-service-control-policies">awesome-service-control-policies</a></li>
+</ul>
+<h2 id="diagrams-visual-tools">✅ Diagrams &amp; Visual Tools</h2>
+<ul>
+<li><a href="https://aws.amazon.com/architecture/icons/">AWS Icons</a></li>
+<li><a href="https://www.cloudcraft.co/">CloudCraft</a></li>
+<li><a href="https://excalidraw.com/">Excalidraw</a></li>
+<li><a href="https://www.diagrams.net/">Diagrams.net</a></li>
+<li><a href="https://www.lucidchart.com/">LucidChart</a></li>
+<li><a href="https://www.tldraw.com/">tldraw</a></li>
+<li><a href="https://mermaid.js.org/">Mermaid</a></li>
+<li><a href="https://pypi.org/project/diagrams/">Python Diagrams</a></li>
+<li><a href="https://kroki.io/">Kroki</a></li>
+<li><a href="https://github.com/ljacobsson/cfn-diagram">cfn-diagram</a></li>
+<li><a href="https://github.com/pistazie/cdk-dia">cdk-dia</a></li>
+<li><a href="https://aws.amazon.com/application-composer/">AWS Application Composer</a></li>
+</ul>
+<h2 id="misc-other-cloudsec-repos">✅ Misc &amp; Other CloudSec Repos</h2>
+<ul>
+<li><a href="https://github.com/awslabs/staticwebsite-cli">Static Website CLI</a></li>
+<li><a href="https://www.nojones.net/cloud-security-resources">Cloud Security Resources by Nick Jones</a></li>
+<li><a href="https://www.zotero.org/groups/2507373/cloudsecurity/collections/FLVJ8TXF/item-list">ZoTero CloudSec collections</a></li>
+<li><a href="https://github.com/Limmen/awesome-rl-for-cybersecurity">Awesome RL for Cybersecurity</a></li>
+<li><a href="https://github.com/disneystreaming/ssm-helpers">SSM Helper by Disney</a></li>
+<li><a href="https://github.com/OWASP/wrongsecrets">WrongSecrets by OWASP</a></li>
+<li><a href="https://github.com/StateFarmIns/LambdaLooter">LambdaLooter</a></li>
+<li><a href="https://github.com/mazen160/secrets-patterns-db">Secrets Patterns DB</a></li>
+<li><a href="https://github.com/zeronetworks/BlueHound/blob/master/README.md">BlueHound</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
