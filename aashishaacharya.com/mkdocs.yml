@@ -1,0 +1,10 @@
+site_name: AJ
+site_url: https://www.aashishaacharya.com
+
+theme:
+  name: readthedocs
+
+nav:
+  - AWS:
+      - About Me: aws/services.md
+      - AWS Resources: aws/identity.md
